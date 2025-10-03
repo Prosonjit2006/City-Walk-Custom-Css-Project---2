@@ -13,6 +13,9 @@
       referrerpolicy="no-referrer"
     />
 
+    <!-- aos css link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!--  local css -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
@@ -20,7 +23,7 @@
     <!-- header part -->
     <header>
       <!-- navbar part -->
-      <div class="navbar">
+      <div class="navbar" id="navtogglar">
         <div class="container">
           <nav>
             <div class="navbar-brand">
@@ -59,131 +62,180 @@
       <!-- banner part -->
       <section class="banner">
         <div class="container">
-          <div class="banner-content">
+          <div
+            class="banner-content"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-center"
+            data-aos-duration="2500"
+          >
             <h1>CITY<span>WALK</span></h1>
             <h1 id="siz53">ON NICKEL PLATE TRIAL</h1>
           </div>
         </div>
       </section>
 
-        <!-- photo part -->
-    <section class="photo">
-      
+      <!-- photo part -->
+      <section class="photo">
         <div class="row">
-          <div class=" col-50">
+          <div class="col-50" data-aos="fade-right" data-aos-duration="2500">
             <figure>
               <img src="./img/photo/1.png" alt="the 1st photo" />
             </figure>
           </div>
-          <div class=" col-50 textalign">
+          <div class="col-50 textalign">
             <h2>Live in luxury, walk in style at The City Walk.</h2>
             <p>
-              The City Walk, an urban development project located in heart
-              of Fishers. This limited-edition lifestyle community offers a
-              range of urban luxury apartments, condominiums, and with
-              top-notch amenities, including rooftop terraces and wellness
-              centers. Experience the best of urban living in Fishers with The City Walk.
+              The City Walk, an urban development project located in heart of
+              Fishers. This limited-edition lifestyle community offers a range
+              of urban luxury apartments, condominiums, and with top-notch
+              amenities, including rooftop terraces and wellness centers.
+              Experience the best of urban living in Fishers with The City Walk.
             </p>
           </div>
         </div>
         <div class="row">
-          <div class=" col-50 textalign">
+          <div class="col-50 textalign">
             <h2>Lifestyle</h2>
             <p>
               CityWalk Condominiums a unique residential high-rise community
               featuring one and two-story condo units. Our tiered building
-              offers breathtaking views of the surrounding landscape including serene ponds and the city skyline,
+              offers breathtaking views of the surrounding landscape including
+              serene ponds and the city skyline,
             </p>
           </div>
-          <div class=" col-50">
+          <div class="col-50" data-aos="fade-left" data-aos-duration="2500">
             <figure>
               <img src="./img/photo/2.png" alt="the 2nd photo" />
             </figure>
           </div>
         </div>
-      
-    </section>
+      </section>
 
-    <!-- luxury part -->
-    <section class="luxury">
+      <!-- luxury part -->
+      <section class="luxury">
         <div class="container">
-            <div class="box">
-                <h2>Live at the intersection of 
-convenience and luxury </h2>
-<p>Discover the perfect blend of urban living and nature at The City Walk and Experience the convenience of city living with nearby restaurants, entertainment, and amenities, all at your doorstep. Take a stroll on the walking trail and discover all that our community.</p>
+          <div class="box">
+            <h2>Live at the intersection of convenience and luxury </h2>
+            <p>
+              Discover the perfect blend of urban living and nature at The City
+              Walk and Experience the convenience of city living with nearby
+              restaurants, entertainment, and amenities, all at your doorstep.
+              Take a stroll on the walking trail and discover all that our
+              community.
+            </p>
 
-                    <div class="photo-view-1 para-align">
-                        <figure>
-                            <img src="./img/luxury/1.png" alt="images">
-                        </figure>
-                        <p>Shopping</p>
-                    </div>
-                    <div class="photo-view-2 para-align">
-                        <figure>
-                            <img src="./img/luxury/2.png" alt="images">
-                        </figure>
-                        <p>Dine</p>
-                    </div>
-                    <div class="photo-view-3 para-align">
-                        <figure>
-                            <img src="./img/luxury/3.png" alt="images">
-                        </figure>
-                        <p>Amenite</p>
-                    </div>
+            <div
+              class="photo-view-1 para-align"
+              data-aos="fade-up"
+              data-aos-duration="3000"
+            >
+              <figure>
+                <img src="./img/luxury/1.png" alt="images" />
+              </figure>
+              <p>Shopping</p>
             </div>
+            <div
+              class="photo-view-2 para-align"
+              data-aos="fade-up"
+              data-aos-duration="2550"
+            >
+              <figure>
+                <img src="./img/luxury/2.png" alt="images" />
+              </figure>
+              <p>Dine</p>
+            </div>
+            <div
+              class="photo-view-3 para-align"
+              data-aos="fade-up"
+              data-aos-duration="2200"
+            >
+              <figure>
+                <img src="./img/luxury/3.png" alt="images" />
+              </figure>
+              <p>Amenite</p>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!-- inetrest part -->
-    <section class="interest">
+      <!-- inetrest part -->
+      <section class="interest">
         <div class="container">
-            <div class="interest-box">
-                <h3>JOIN THE INTEREST LIST</h3>
-                <p>Don't miss out on important updates - sign up to our interest list today. We'll send you the latest news, floor plans, pricing, and more as soon as they become available. Fill out the form below to join.</p>
+          <div class="interest-box">
+            <h3>JOIN THE INTEREST LIST</h3>
+            <p>
+              Don't miss out on important updates - sign up to our interest list
+              today. We'll send you the latest news, floor plans, pricing, and
+              more as soon as they become available. Fill out the form below to
+              join.
+            </p>
 
-                <form action="">
-                    <input type="text" id="fname" placeholder="First Name">
+            <form action="">
+              <input type="text" id="fname" placeholder="First Name" />
 
-                    <input type="text" id="lname" placeholder="Last Name">
+              <input type="text" id="lname" placeholder="Last Name" />
 
-                    <input type="email" id="email" placeholder="Email">
+              <input type="email" id="email" placeholder="Email" />
 
-                    <input type="number" max="10" id="phone" placeholder="Phone">
+              <input type="number" max="10" id="phone" placeholder="Phone" />
 
-                    <textarea name="msg" id="msg" placeholder="Massage Here..."></textarea>
+              <textarea
+                name="msg"
+                id="msg"
+                placeholder="Massage Here..."
+              ></textarea>
 
-                    <input type="submit" value="Submit" class="btn white-input">
-                </form>
-            </div>
+              <input type="submit" value="Submit" class="btn white-input" />
+            </form>
+          </div>
         </div>
-    </section>
-
+      </section>
     </main>
 
     <!-- footer part -->
     <footer>
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col col-50">
-                        <h4 class="siz24">citywalk is stunning life style in the heart of the city</h4>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col col-50 col-md-100">
+              <h4 class="siz24">
+                citywalk is stunning life style in the heart of the city
+              </h4>
 
-                        <div class="icon">
-              <i class="fa-brands fa-square-instagram"></i>
-              <i class="fa-brands fa-youtube"></i>
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-square-linkedin"></i>
+              <div class="icon icon-alg">
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-linkedin"></i>
+              </div>
             </div>
-                    </div>
-                    <div class="col col-50">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117925.35231277326!2d88.26495090163962!3d22.535406374482605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1759476639026!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
+            <div
+              class="col col-50 col-md-100 alg"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+            >
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117925.35231277326!2d88.26495090163962!3d22.535406374482605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1759476639026!5m2!1sen!2sin"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
-            <hr>
-            <p>Copyright © City Walk Fishers , All rights reserved.</p>
+          </div>
         </div>
+        <hr />
+        <p>Copyright © City Walk Fishers , All rights reserved.</p>
+      </div>
     </footer>
+
+    <!-- aos js link -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Initialize AOS -->
+    <script>
+      AOS.init();
+    </script>
 
     <!-- local js link -->
     <script src="./js/main.js"></script>
