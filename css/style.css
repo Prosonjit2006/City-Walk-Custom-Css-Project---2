@@ -306,7 +306,8 @@ input[type="submit"]:hover {
 iframe {
   width: 405px;
   height: 185px;
-  margin-left: 100px;
+  margin-left: 70px;
+  
 }
 .footer hr {
   margin-top: 50px;
@@ -381,7 +382,7 @@ iframe {
     margin: 0 -15px;
     flex-direction: column;
     align-items: start;
-    justify-content: start;
+    justify-content: start; 
 
     display: none;
   }
@@ -428,7 +429,8 @@ iframe {
   }
 
   iframe {
-    margin-left: 30px;
+    margin-left: 10px;
+
   }
 }
 
